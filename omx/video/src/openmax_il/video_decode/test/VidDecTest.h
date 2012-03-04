@@ -74,7 +74,6 @@
 #include <OMX_Component.h>
 #include <semaphore.h>
 #include <OMX_VideoDecoder.h>
-#include "overlay_common.h"
 
 #define KHRONOS_1_1
 /*#define KHRONOS_1_2*/
@@ -85,8 +84,8 @@
 #define CMD_FILL                            1
 #define CMD_EMPTY                           2
 #define ADD_CHARS_TO_OUTPUT                 6
-#define MAX_VIDDEC_NUM_OF_IN_BUFFERS        NUM_OVERLAY_BUFFERS_REQUESTED
-#define MAX_VIDDEC_NUM_OF_OUT_BUFFERS       NUM_OVERLAY_BUFFERS_REQUESTED
+#define MAX_VIDDEC_NUM_OF_IN_BUFFERS        2
+#define MAX_VIDDEC_NUM_OF_OUT_BUFFERS       2
 #define VIDDECTEST_BUFFERSIZE_FIXED         3000
 #define CHUNK_FILE                          3000
 /*#define VIDDECTEST_USEFORMATSIZE_RANDOMIZED*/

@@ -10,7 +10,7 @@ LOCAL_SRC_FILES:= \
 LOCAL_C_INCLUDES += \
 	$(TI_OMX_INCLUDES) \
 	$(TI_BRIDGE_INCLUDES) \
-	$(TI_OMX_SYSTEM)/lcml/inc	
+	$(TI_OMX_SYSTEM)/lcml/inc
 
 LOCAL_SHARED_LIBRARIES := \
 	libdl 	\
